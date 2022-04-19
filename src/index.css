@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  background-color: aquamarine!important;
+}
+::-webkit-scrollbar {
+  width: 0.6rem;
+
+}
+::-webkit-scrollbar-track{
+  background-color: aquamarine;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  /* background: linear-gradient(rgb(255, 255, 255),rgb(112, 230, 220)); */
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+}
+
+@supports(scrollbar-color: white aquamarine){
+  *{
+    scrollbar-color:white aquamarine;
+    scrollbar-width:thin;
+  }
+}

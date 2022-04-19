@@ -1,0 +1,2 @@
+export const AJOUTE_USER = "AJOUTE_USER";
+export const SUPRIMER_USER = "SUPRIMER_USER";

@@ -1,0 +1,31 @@
+.Login{
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+}
+.Login .bloc_login{
+    background-color: white;
+    padding: 20px;
+}
+.Login .bloc_login .image_login{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.Login .bloc_login .image_login img{
+    height: 100%;
+    width: 100%;
+}
+.Login .bloc_login button{
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 0!important;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+}
+.Login .bloc_login button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,96 @@
+.navbar{
+    background-color: white!important;
+    padding: 10px!important;
+}
+.navbar .logo{
+    color: aquamarine!important;
+}
+.navbar .nav_center .nav-link{
+    background-color: transparent!important;
+    color:rgb(117, 117, 117)!important;
+    margin-right: 10px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    border-radius: 5px!important;
+    transition: 0.5s ease-in-out;
+}
+.navbar .nav_center .nav-link.activer{
+    background-color: aquamarine!important;
+    color: white!important;
+    border:1px solid aquamarine!important;
+    margin-right: 10px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    border-radius: 5px!important;
+    transition: 0.5s ease-in-out;
+}
+.navbar .nav_center .nav-link:hover{
+    background-color: aquamarine!important;
+    color: white!important;
+
+}
+
+.navbar .nav_right .nav-link{
+    background-color: aquamarine!important;
+    color:rgb(255, 255, 255)!important;
+    margin-right: 10px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    border-radius: 5px!important;
+    transition: 0.5s ease-in-out;
+}
+.navbar .nav_right .nav-link:hover{
+    background-color: white!important;
+    color: rgb(168, 216, 255)!important;
+    border:1px solid aquamarine!important;
+}
+.navbar .nav_right  .fa-power{
+    background-color: red!important;
+    color:white!important;
+    border:none!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    border-radius: 5px!important;
+    transition: 0.5s ease-in-out;
+}
+.navbar .nav_right  .fa-power:hover{
+    background-color: white!important;
+    color: rgb(168, 216, 255)!important;
+    border:1px solid aquamarine!important;
+}
+.navbar .nav_right .badge{
+    background-color: red;
+    margin-top:-10px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .navbar  .nav-link{
+       text-align: center!important;
+       margin-top: 10px;
+    }
+  }
+  @media only screen and (min-width: 376px) and (max-width: 479px) {
+    .navbar  .nav-link{
+        text-align: center!important;
+        margin-top: 10px;
+     }
+ 
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+
+    .navbar  .nav-link{
+        text-align: center!important;
+        margin-top: 10px;
+     }
+  }

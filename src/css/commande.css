@@ -1,0 +1,44 @@
+.Commande{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.Commande .bloc_commande{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+.Commande .bloc_commande .header_commande{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(31, 31, 31);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.Commande .bloc_commande .header_commande button{
+    background-color: white;
+    border:none!important;
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+.Commande .bloc_commande .header_commande button:hover{
+transform: scale(1.1);
+}
+.Commande .bloc_commande .header_commande h6{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Commande .bloc_commande .body_commande .prixTotal{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    clip-path: polygon(50% 0%, 100% 0, 89% 50%, 100% 100%, 0 98%, 10% 51%, 0 0);
+}

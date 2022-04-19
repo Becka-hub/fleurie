@@ -1,0 +1,33 @@
+.Contact{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.Contact .bloc_contact{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.Contact .bloc_contact .avatar_contact{
+    width: 150px;
+    height: 150px;
+
+}
+.Contact .bloc_contact .avatar_contact img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid aquamarine;
+}
+.Contact .bloc_contact .merci{
+    display: flex;
+}
+.Contact .bloc_contact .merci i{
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+    margin-right: 10px;
+}
+.Contact .bloc_contact .merci h6{
+    margin-top: 10px;
+}

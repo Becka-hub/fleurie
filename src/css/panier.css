@@ -1,0 +1,170 @@
+.panier {
+    margin-top: 80px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 80px;
+}
+
+.panier .panier_titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panier .panier_titre i {
+    color: aquamarine;
+}
+
+.panier .panier_titre {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(71, 71, 71) !important;
+}
+
+.panier .panier_produit {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.panier .panier_produit .produit_image {
+    width: 60px;
+    height: 40px;
+}
+
+.panier .panier_produit .produit_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.panier .panier_produit h4 {
+    color: rgb(71, 71, 71) !important;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.panier .panier_produit .quantite {
+    display: flex;
+    margin-right: 20px;
+}
+
+.panier .panier_produit .quantite .btn_plus {
+    background-color: white !important;
+    color: aquamarine !important;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid aquamarine !important;
+    transition: 0.5s ease-in-out;
+    font-weight: 600;
+    border-radius: 50% !important;
+    height: 40px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    height: 40px;
+    width: 40px;
+}
+
+.panier .panier_produit .quantite .btn_plus:focus {
+    box-shadow: none !important;
+}
+
+.panier .panier_produit .quantite .btn_plus:hover {
+    background-color: aquamarine!important;
+    color:white!important;
+}
+
+.panier .panier_produit .quantite .btn_moins {
+    background-color: white !important;
+    color: aquamarine !important;
+    font-size: 18px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid aquamarine !important;
+    font-weight: 600;
+    border-radius: 50% !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.panier .panier_produit .quantite .btn_moins:focus {
+    box-shadow: none !important;
+}
+
+.panier .panier_produit .quantite .btn_moins:hover {
+    background-color: aquamarine!important;
+    color:white!important;
+}
+
+.panier .panier_produit .quantite .qty {
+    margin-top: 7px;
+    font-size: 18px;
+    color: rgb(71, 71, 71) !important;
+    font-weight: 600;
+}
+.panier .panier_produit .produit_calcule{
+    margin-left: 30px !important;
+}
+.panier .panier_validation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.panier .panier_validation .btn_valider {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: rgb(71, 71, 71) !important;
+    color: white;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.panier .panier_validation .btn_valider:hover {
+    transform: scale(1.1);
+}
+
+.panier .panier_validation .totalprix {
+    display: flex;
+}
+
+.panier .panier_validation .totalprix h5 {
+    color: rgb(71, 71, 71) !important;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.panier .panier_validation .totalprix .total {
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    clip-path: polygon(50% 0%, 100% 0, 89% 50%, 100% 100%, 0 98%, 10% 51%, 0 0);
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .panier .panier_produit .quantite {
+        margin-top: 20px !important;
+    }
+    .panier .panier_produit .produit_calcule{
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479.98px) {
+    .panier .panier_produit .quantite {
+        margin-top: 20px !important;
+    }
+    .panier .panier_produit .produit_calcule{
+        margin-top: 20px !important;
+    }
+}

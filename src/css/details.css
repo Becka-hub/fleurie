@@ -1,0 +1,84 @@
+.Details{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.Details .bloc_details{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px!important;
+}
+.Details .bloc_details h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(88, 88, 88)!important;
+}
+.Details .bloc_details .image_details{
+    height: 400px;
+    width: 100%;
+}
+.Details .bloc_details .image_details img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid aquamarine;
+}
+.Details .bloc_details .produit h4{
+    font-size: 22px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-weight: 800;
+    color:rgb(100, 100, 100)!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Details .bloc_details .produit p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+    color:rgb(100, 100, 100)!important;
+    margin-top: 10px;
+}
+.Details .bloc_details .produit .prix{
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 40px;
+    background-color:rgb(100, 247, 63);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    clip-path: polygon(50% 0%, 100% 0, 89% 50%, 100% 100%, 0 98%, 10% 51%, 0 0);
+    margin-top: 10px;
+}
+.Details .bloc_details .produit .prix h5{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.Details .bloc_details .produit .btn_accueils{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border-radius: 0!important;
+    border: none!important;
+    transition: 0.5s ease-in-out;
+}
+.Details .bloc_details .produit .btn_accueils:hover{
+    transform: scale(1.1);
+}
+.Details .bloc_details .produit .btn_panier{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    color: white;
+    background-color: aquamarine;
+    border-radius: 0!important;
+    border: none!important;
+    transition: 0.5s ease-in-out;
+}
+.Details .bloc_details .produit .btn_panier:hover{
+    transform: scale(1.1);
+}

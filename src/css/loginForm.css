@@ -1,0 +1,21 @@
+.form-control{
+  border-radius:0!important;
+}
+.form-control:focus{
+    box-shadow: none!important;
+}
+.forgout_span span{
+    font-size: 15px;
+    color:rgb(88, 88, 88)!important;
+    cursor: pointer;
+}
+.register_span span{
+    font-size: 15px;
+    color:rgb(58, 58, 58)!important;
+    margin-top: -7px;
+    cursor: pointer;
+}
+.register_span strong{
+    color:aquamarine!important;
+    cursor: pointer;
+}
