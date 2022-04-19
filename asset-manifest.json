@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fleurie/static/css/main.a27dbf3e.chunk.css",
+    "main.js": "/fleurie/static/js/main.d3ad4b37.chunk.js",
+    "main.js.map": "/fleurie/static/js/main.d3ad4b37.chunk.js.map",
+    "runtime-main.js": "/fleurie/static/js/runtime-main.a32fe05d.js",
+    "runtime-main.js.map": "/fleurie/static/js/runtime-main.a32fe05d.js.map",
+    "static/css/2.52eba48d.chunk.css": "/fleurie/static/css/2.52eba48d.chunk.css",
+    "static/js/2.5cd471e4.chunk.js": "/fleurie/static/js/2.5cd471e4.chunk.js",
+    "static/js/2.5cd471e4.chunk.js.map": "/fleurie/static/js/2.5cd471e4.chunk.js.map",
+    "index.html": "/fleurie/index.html",
+    "static/css/2.52eba48d.chunk.css.map": "/fleurie/static/css/2.52eba48d.chunk.css.map",
+    "static/css/main.a27dbf3e.chunk.css.map": "/fleurie/static/css/main.a27dbf3e.chunk.css.map",
+    "static/js/2.5cd471e4.chunk.js.LICENSE.txt": "/fleurie/static/js/2.5cd471e4.chunk.js.LICENSE.txt",
+    "static/media/Beckas_avatar.b51b385f.jpg": "/fleurie/static/media/Beckas_avatar.b51b385f.jpg",
+    "static/media/fleurs1.d20655d2.jpg": "/fleurie/static/media/fleurs1.d20655d2.jpg",
+    "static/media/font-awesome.css": "/fleurie/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/image.940fd767.png": "/fleurie/static/media/image.940fd767.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a32fe05d.js",
+    "static/css/2.52eba48d.chunk.css",
+    "static/js/2.5cd471e4.chunk.js",
+    "static/css/main.a27dbf3e.chunk.css",
+    "static/js/main.d3ad4b37.chunk.js"
+  ]
+}
